@@ -1,0 +1,12 @@
+
+To build:
+$ make
+
+To run:
+1. Create input.dat
+2. $ ./master
+
+master process has options. Use ./master -h to get help about them.
+master creates log.out to log running processes. Entering/exiting critical sections is logged to
+stderr. If built with DEBUG defined palin processes will also create numeric files for their debug
+logs.
